@@ -1,0 +1,228 @@
+@font-face {
+    font-family: typeka;
+    src: url(Fonts/Typeka.otf);
+  }
+  
+
+* {box-sizing: border-box;}
+
+#mobile {display:none; }
+
+#desktop {display:inline; } 
+
+
+
+body
+{
+ background-color: black;
+ color: white;
+ font-family: Typeka; 
+
+}
+
+header
+{   width: 1890px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-color: #2e313a9b;
+    background-position: center; 
+    position: top;
+  
+   
+    
+
+}
+
+main
+{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 10em;
+    display:block;
+    
+}
+fieldset
+{
+    text-align: center;
+    border-radius: 30px;
+    ;
+}
+.details
+{   
+    padding-left:10%;
+    padding-right:20%;
+    font-weight: lighter;
+    line-height: 130%;
+    font-size: 0.5cm;
+    letter-spacing: 0.1em;
+}
+
+
+wrapper
+{
+   
+}
+
+p
+{
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+    padding-top: 1px;
+    padding-left: 20px;
+    font-size: 5em;
+    text-shadow: 0.1em 0.1em 0.2em rgb(175, 175, 175);
+}
+
+h2
+{
+    font-weight: lighter;
+    line-height: 150%;
+    text-align: center;
+}
+h3
+{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+ .host
+ {
+     font-size: 3em;
+     
+ }
+nav
+{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+nav a
+{
+    text-decoration: none;
+}
+a:link 
+    {color: #ffffff; }
+
+a:visited 
+    {color:#e9e9e9; }
+
+a:hover 
+    {color: #c2bebe; }
+
+footer
+{
+    font-size: .80em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px;
+    color: white;
+}
+
+img
+{
+    padding-left: 10px;
+	padding-right: 10px;
+}
+
+.floatleft 
+{
+    float:left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+} 
+
+.jef
+{
+    padding-right: 2em;
+    padding-bottom: 12em;
+} 
+
+
+header, nav, main, footer {display: block; }
+
+
+#Studio
+{
+    background-image:url("Images/Radio\ room\ 3.jpg");
+	background-size:100% 100%;
+	height:500px; 
+    width: 1850px;
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    body { margin: 0;
+           background-image: none; }
+    #wrapper { width: auto;
+               min-width: 0;
+               margin: 0;
+               padding: 0;
+               box-shadow: none; }
+    header { border-bottom: 5px solid #FEF6C2; }
+    h1 { margin-top: 0;
+         margin-bottom: 1em;
+         padding-top: 1em;
+         padding-bottom: 1em;
+         font-size: 2.5em; }
+    nav { float: none; 
+          width: auto;
+          padding-top: 0;
+          margin: 10px;
+          font-size: 1.3em; }	
+   nav li { display: inline-block; }
+   nav a { padding: 1em;
+           width: 8em; 
+           font-weight: bold;
+           border-style: none; }
+   nav ul {padding: 0;
+       margin: 0; }
+   #Studio { padding: 0; 
+               margin: 0; }
+   #heromugs  { padding: 0; 
+                margin: 0; }
+   #heroguitar { padding: 0; 
+                 margin: 0; }
+   main { margin: 0;
+          padding: 0;
+          font-size: 90%; } 
+} 
+
+@media only screen and (max-width: 768px) { 
+    header { background-image: url ("javajammini.jpg");
+             height: 128px; }
+    h1 { padding-left: 0;
+         text-align: center; 
+         font-size: 2em; }
+    nav { margin: 0; }	
+    nav li { display: block; }
+    nav a {display: block;
+           padding: 0.2em;
+           width: auto;
+           border-bottom: 1px solid #FEF6C2; }
+    #Studio { background-image: none;
+                height: auto; }
+    #heromugs { background-image: none;
+                height: auto; } 
+    #heroguitar { background-image: none;
+                  height: auto; }
+    main { padding-top: 1px; } 
+    h2 {padding: 0.5em 0 0 0.5em;
+        margin-right: 0.5em; }
+   .floatleft { padding-right: 0.5em;
+                padding-left: 0.5em; }
+   .details { padding-right: 0;
+              padding-left: 0; }
+   #mobile {display: inline; }
+   #desktop {display: none; }
+} 
+
