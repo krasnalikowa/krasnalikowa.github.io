@@ -158,7 +158,7 @@ header, nav, main, footer {display: block; }
 
 
 
-@media only screen and (max-width: 1024px) {
+@media only all and (max-width: 768px) {
     body { margin: 0;
            background-image: none;
          }
@@ -218,3 +218,6 @@ header, nav, main, footer {display: block; }
        margin: 0;
    }
 }
+
+
+
