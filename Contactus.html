@@ -23,8 +23,24 @@
         <h1>The Truth Lies In The Words</h1>
      
         <main>
-          
-                <br><br><br><br><br><br><br><br>
+            <p><h2>Do you know any person with an intriguing story? <br> In a few sentences, describe who and what story it is about, and maybe we will contact you.</h2></p>
+            <form action="send_mail.php" method="post">
+                <fieldset>
+                    <legend><h2>Contact with us</h2></legend>
+                    <h2>
+                    E-mail: <input type="email" name="email" id="email" placeholder="@" required><br>
+                    Name: <input type="text" name="imie" required><br><br>
+        
+                    E-mail text:<br>
+                        <textarea name="email_content" id="email_content" cols="80" rows="20" placeholder="Your story" required></textarea>
+        
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </h2>
+                </fieldset>
+            </form>
+        
+
         </main>
         <footer>Copyrigh &copy; 2022 The Truth Lies In The Words <br>
 			
