@@ -163,17 +163,24 @@ header, nav, main, footer {display: block; }
 @media only screen and (max-width: 1024px) {
     body { margin: 0;
            background-image: none; }
-    #wrapper { width: auto;
-               min-width: 0;
-               margin: 0;
-               padding: 0;
-               box-shadow: none; }
-    header { border-bottom: 5px solid #FEF6C2; }
+    
+    header { border-bottom: 5px solid #2e313a9b; }
     h1 { margin-top: 0;
          margin-bottom: 1em;
          padding-top: 1em;
          padding-bottom: 1em;
          font-size: 2.5em; }
+         h2 { margin-top: 0;
+            margin-bottom: 1em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            font-size: 2.5em; }
+            h3 { margin-top: 0;
+                margin-bottom: 1em;
+                padding-top: 1em;
+                padding-bottom: 1em;
+                font-size: 2.5em; }
+    
     nav { float: none; 
           width: auto;
           padding-top: 0;
@@ -188,10 +195,14 @@ header, nav, main, footer {display: block; }
        margin: 0; }
    #Studio { padding: 0; 
                margin: 0; }
-   #heromugs  { padding: 0; 
+   .floatleft  { padding: 0; 
                 margin: 0; }
-   #heroguitar { padding: 0; 
+   .details { padding: 0; 
                  margin: 0; }
+    .host { padding: 0; 
+                    margin: 0; }
+    .jef { padding: 0; 
+                        margin: 0; }
    main { margin: 0;
           padding: 0;
           font-size: 90%; } 
