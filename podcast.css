@@ -1,3 +1,4 @@
+  
 @font-face {
     font-family: typeka;
     src: url(Fonts/Typeka.otf);
@@ -164,77 +165,10 @@ header, nav, main, footer {display: block; }
     body { margin: 0;
            background-image: none; }
     
-    header { border-bottom: 5px solid #2e313a9b; }
-    h1 { margin-top: 0;
-         margin-bottom: 1em;
-         padding-top: 1em;
-         padding-bottom: 1em;
-         font-size: 2.5em; }
-         h2 { margin-top: 0;
-            margin-bottom: 1em;
-            padding-top: 1em;
-            padding-bottom: 1em;
-            font-size: 2.5em; }
-            h3 { margin-top: 0;
-                margin-bottom: 1em;
-                padding-top: 1em;
-                padding-bottom: 1em;
-                font-size: 2.5em; }
-    
-    nav { float: none; 
-          width: auto;
-          padding-top: 0;
-          margin: 10px;
-          font-size: 1.3em; }	
-   nav li { display: inline-block; }
-   nav a { padding: 1em;
-           width: 8em; 
-           font-weight: bold;
-           border-style: none; }
-   nav ul {padding: 0;
-       margin: 0; }
-   #Studio { padding: 0; 
-               margin: 0; }
-   .floatleft  { padding: 0; 
-                margin: 0; }
-   .details { padding: 0; 
-                 margin: 0; }
-    .host { padding: 0; 
-                    margin: 0; }
-    .jef { padding: 0; 
-                        margin: 0; }
-   main { margin: 0;
-          padding: 0;
-          font-size: 90%;
-        background-image:url("Images/Radio\ room\ 3.jpg"); } 
-} 
+    header
+    {
+        box-orient: vertical;
+        flex-direction: column;
+    }
 
-@media only screen and (max-width: 768px) { 
-    header { background-image: url ("javajammini.jpg");
-             height: 128px; }
-    h1 { padding-left: 0;
-         text-align: center; 
-         font-size: 2em; }
-    nav { margin: 0; }	
-    nav li { display: block; }
-    nav a {display: block;
-           padding: 0.2em;
-           width: auto;
-           border-bottom: 1px solid #FEF6C2; }
-    #Studio { background-image: none;
-                height: auto; }
-    #heromugs { background-image: none;
-                height: auto; } 
-    #heroguitar { background-image: none;
-                  height: auto; }
-    main { padding-top: 1px; } 
-    h2 {padding: 0.5em 0 0 0.5em;
-        margin-right: 0.5em; }
-   .floatleft { padding-right: 0.5em;
-                padding-left: 0.5em; }
-   .details { padding-right: 0;
-              padding-left: 0; }
-   #mobile {display: inline; }
-   #desktop {display: none; }
-} 
-
+}
