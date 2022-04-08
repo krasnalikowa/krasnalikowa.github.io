@@ -164,8 +164,6 @@ header, nav, main, footer {display: block; }
 @media only screen and (max-width: 1024px) {
     body { margin: 0;
            background-image: none;
-           box-orient: vertical;
-           flex-direction: column;
          }
     
     header
