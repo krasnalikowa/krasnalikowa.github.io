@@ -167,6 +167,7 @@ header, nav, main, footer {display: block; }
     
     header
     {
+        font-size: 2.5em;
         box-orient: vertical;
         flex-direction: column;
     }
