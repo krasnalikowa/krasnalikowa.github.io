@@ -10,33 +10,34 @@
 <meta name="description" content="Website created for a college project.">
 </head>
 <body>
-    <div id="wrapper">
-    <header><nav> <h3>
+    
+    <header>
         <ul>
-            <a href="index.html">Home</a> &nbsp;
-            <a href="Interviews.html">Interviews</a> &nbsp;
-            <a href="Contactus.html">Contact</a> &nbsp;
-            <a href="Aboutus.html">About us</a> &nbsp;
-            <a href="kulisy.html">BTS</a>
-        </ul>
-        </h3></nav></header> 
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Interviews.html">Interviews</a></li>
+            <li><a href="Contactus.html">Contact</a></li>
+            <li><a href="Aboutus.html">About us</a></li>
+            <li><a href="kulisy.html">BTS</a></li>
+          </ul>
+    </header> 
         <h1>The Truth Lies In The Words</h1>
      
         <main>
             <p><h2>Do you know any person with an intriguing story? <br> In a few sentences, describe who and what story it is about, and maybe we will contact you.</h2></p>
             <form action="send_mail.php" method="post">
                 <fieldset>
+                    
                     <legend><h2>Contact with us</h2></legend>
                     <h2>
                     E-mail: <input type="email" name="email" id="email" placeholder="@" required><br>
                     Name: <input type="text" name="imie" required><br><br>
-        
                     E-mail text:<br>
                         <textarea name="email_content" id="email_content" cols="80" rows="20" placeholder="Your story" required></textarea>
         
                     <br><br>
                     <input type="submit" value="Submit">
                 </h2>
+                
                 </fieldset>
             </form>
         

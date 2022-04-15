@@ -18,19 +18,6 @@ body
 
 }
 
-header
-{   width: 1890px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-color: #2e313a9b;
-    background-position: center; 
-    position: top;
-  
-   
-    
-
-}
-
 main
 {
     padding-left: 2em;
@@ -43,7 +30,7 @@ fieldset
 {
     text-align: center;
     border-radius: 30px;
-    ;
+    
 }
 .details
 {   
@@ -54,11 +41,38 @@ fieldset
     font-size: 0.5cm;
     letter-spacing: 0.1em;
 }
-
-
-wrapper
+  
+  ul, ul li 
 {
-   
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    background-color: rgb(35, 36, 41);
+    
+}
+
+ul 
+{
+	text-align: center;
+	padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 2em;
+    font-family: Typeka;
+    font-weight: bold;
+}
+
+ul li
+{
+	display: inline;
+	white-space: nowrap;
+	margin-right: 70px;
+}
+
+ul a:link, ul a:visited 
+{
+	text-decoration: none;
+	
 }
 
 p
@@ -91,18 +105,17 @@ h3
      font-size: 3em;
      
  }
-nav
+
+.logo
+
 {
-    font-size: 1.5em;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 10px;
+    height: 280px;
+    width:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
-nav a
-{
-    text-decoration: none;
-}
 a:link 
     {color: #ffffff; }
 
@@ -113,6 +126,7 @@ a:hover
     {color: #c2bebe; }
 
 footer
+
 {
     font-size: .80em;
     font-style: italic;
@@ -120,15 +134,18 @@ footer
     padding-bottom: 10px;
     border-top: 2px;
     color: white;
+    
 }
 
 img
+
 {
     padding-left: 10px;
 	padding-right: 10px;
 }
 
 .floatleft 
+
 {
     float:left;
     padding-right: 2em;
@@ -136,16 +153,33 @@ img
 } 
 
 .jef
+
 {
     padding-right: 2em;
     padding-bottom: 12em;
 } 
 
+.sprzet
 
-header, nav, main, footer {display: block; }
+{
+    
+    list-style-type: circle;
+    font-size: 1.8em;
+    
+   
+}
+
+.sprzet1
+
+{
+    font-size: 2em;
+}
+
+ nav, main, footer {display: block; }
 
 
 #Studio
+
 {
     background-image:url("Images/Radio\ room\ 3.jpg");
 	background-size:100% 100%;
@@ -155,789 +189,151 @@ header, nav, main, footer {display: block; }
     filter: alpha(opacity=40);
 
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+ 
+  .column {
+    flex: 25%;
+    max-width: 35%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
 
 
-
-@media screen and (max-width: 720px) {
-    @font-face {
-        font-family: typeka;
-        src: url(Fonts/Typeka.otf);
-      }
-      
-    
-    * {box-sizing: border-box;}
-    
-    
-    
-    
-    body
-    {
-     background-color: black;
-     color: white;
-     font-family: Typeka; 
-    
-    }
+@media only screen and (max-width: 1024px) {
+    body { margin: 0;
+           background-image: none;
+         }
     
     header
-    {   width: 1890px;
-        height: 100px;
-        background-repeat: no-repeat;
-        background-color: #2e313a9b;
-        background-position: center; 
-        position: top;
-      
-       
-        
-    
+
+    {
+        font-size: 0.5em;
     }
-    
+
     main
+
     {
-        padding-left: 2em;
-        padding-right: 2em;
-        padding-bottom: 10em;
-        display:block;
+        padding: 0;
+    }
+
+    ul li
+
+    {
+	    display: inline;
+	    white-space: nowrap;
+        margin-right: 8px;
+    }
         
-    }
-    fieldset
+        
+    #Studio
+
     {
-        text-align: center;
-        border-radius: 30px;
-        ;
+	    height:0; 
+        width: 0;
     }
-    .details
-    {   
-        padding-left:10%;
-        padding-right:20%;
-        font-weight: lighter;
-        line-height: 130%;
-        font-size: 0.5cm;
-        letter-spacing: 0.1em;
-    }
-    
-    
-    wrapper
-    {
-       
-    }
-    
-    p
-    {
-        text-align: center;
-    }
-    
+
     h1
+
     {
+
         text-align: center;
         padding-top: 1px;
         padding-left: 20px;
-        font-size: 5em;
+        font-size: 2em;
         text-shadow: 0.1em 0.1em 0.2em rgb(175, 175, 175);
     }
-    
-    h2
-    {
-        font-weight: lighter;
-        line-height: 150%;
-        text-align: center;
-    }
-    h3
-    {
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-     .host
-     {
-         font-size: 3em;
-         
-     }
-    nav
-    {
-        font-size: 1.5em;
-        text-align: center;
-        font-weight: bold;
-        padding-top: 10px;
-    }
-    
-    nav a
-    {
-        text-decoration: none;
-    }
-    a:link 
-        {color: #ffffff; }
-    
-    a:visited 
-        {color:#e9e9e9; }
-    
-    a:hover 
-        {color: #c2bebe; }
-    
-    footer
-    {
-        font-size: .80em;
-        font-style: italic;
-        text-align: center;
-        padding-bottom: 10px;
-        border-top: 2px;
-        color: white;
-    }
-    
-    img
-    {
-        padding-left: 10px;
-    	padding-right: 10px;
-    }
-    
-    .floatleft 
-    {
-        float:left;
-        padding-right: 2em;
-        padding-bottom: 2em;
-    } 
-    
-    .jef
-    {
-        padding-right: 2em;
-        padding-bottom: 12em;
-    } 
-    
-    
-    header, nav, main, footer {display: block; }
-    
-    
-    #Studio
-    {
-        background-image:url("Images/Radio\ room\ 3.jpg");
-    	background-size:100% 100%;
-    	height:500px; 
-        width: 1850px;
-        opacity: 0.7;
-        filter: alpha(opacity=40);
-    
-    }
-}
 
-@media screen and (min-width: 721px) and (max-width: 1280px) {
-    @font-face {
-        font-family: typeka;
-        src: url(Fonts/Typeka.otf);
-      }
-      
-    
-    * {box-sizing: border-box;}
-    
-    
-    
-    
-    body
+    .jef
+
     {
-     background-color: black;
-     color: white;
-     font-family: Typeka; 
-    
-    }
-    
-    header
-    {   width: 1890px;
-        height: 100px;
-        background-repeat: no-repeat;
-        background-color: #2e313a9b;
-        background-position: center; 
-        position: top;
-      
-       
-        
-    
-    }
-    
-    main
-    {
-        padding-left: 2em;
-        padding-right: 2em;
-        padding-bottom: 10em;
-        display:block;
+        padding-right: 0em;
+        padding-bottom: 0em;
+        width: fit-content;
         
     }
-    fieldset
-    {
-        text-align: center;
-        border-radius: 30px;
-        ;
+    
+    form{
+        width: 100%;
+        position: relative;
+        margin: 30px auto 0 auto;
     }
+    .row{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+        grid-gap: 20px 30px;
+        margin-bottom: 20px;
+    }
+    label{
+        color: #1c093c;
+        font-size: 14px;
+    }
+    textarea,
+    input{
+        width: 100%;
+        font-weight: 400;
+        padding: 8px 10px;
+        border-radius: 5px;
+        border: 1.2px solid #c4cae0;
+        margin-top: 5px;
+    }
+    textarea{
+        resize: none;
+    }
+    textarea:focus,
+    input:focus{
+        outline: none;
+        
+    }
+    button
+    {
+        border: none;
+        padding: 10px 20px;
+        color: #ffffff;
+        border-radius: 3px;
+    }
+
+    table, thead, tbody, th, td, tr 
+    { 
+		display: block; 
+	}
+
+    .column 
+    {
+        flex: 200%;
+        max-width: 160%;
+    }
+
     .details
     {   
-        padding-left:10%;
-        padding-right:20%;
-        font-weight: lighter;
-        line-height: 130%;
-        font-size: 0.5cm;
-        letter-spacing: 0.1em;
+    padding-left:20%;
+    padding-right:20%;
+    font-size: 0.4cm;
+   
     }
-    
-    
-    wrapper
-    {
-       
-    }
-    
-    p
-    {
-        text-align: center;
-    }
-    
-    h1
-    {
-        text-align: center;
-        padding-top: 1px;
-        padding-left: 20px;
-        font-size: 5em;
-        text-shadow: 0.1em 0.1em 0.2em rgb(175, 175, 175);
-    }
-    
-    h2
-    {
-        font-weight: lighter;
-        line-height: 150%;
-        text-align: center;
-    }
-    h3
-    {
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-     .host
-     {
-         font-size: 3em;
-         
-     }
-    nav
-    {
-        font-size: 1.5em;
-        text-align: center;
-        font-weight: bold;
-        padding-top: 10px;
-    }
-    
-    nav a
-    {
-        text-decoration: none;
-    }
-    a:link 
-        {color: #ffffff; }
-    
-    a:visited 
-        {color:#e9e9e9; }
-    
-    a:hover 
-        {color: #c2bebe; }
-    
-    footer
-    {
-        font-size: .80em;
-        font-style: italic;
-        text-align: center;
-        padding-bottom: 10px;
-        border-top: 2px;
-        color: white;
-    }
-    
-    img
-    {
-        padding-left: 10px;
-    	padding-right: 10px;
-    }
-    
-    .floatleft 
-    {
-        float:left;
-        padding-right: 2em;
-        padding-bottom: 2em;
-    } 
-    
-    .jef
-    {
-        padding-right: 2em;
-        padding-bottom: 12em;
-    } 
-    
-    
-    header, nav, main, footer {display: block; }
-    
-    
-    #Studio
-    {
-        background-image:url("Images/Radio\ room\ 3.jpg");
-    	background-size:100% 100%;
-    	height:500px; 
-        width: 1850px;
-        opacity: 0.7;
-        filter: alpha(opacity=40);
-    
-    }
+   
+    .sprzet
+
+{
+    font-size: 1em;
 }
 
-@media screen and (min-width: 1281px) and (max-width: 1440px) {
-    @font-face {
-        font-family: typeka;
-        src: url(Fonts/Typeka.otf);
-      }
-      
-    
-    * {box-sizing: border-box;}
-    
-    
-    
-    
-    body
-    {
-     background-color: black;
-     color: white;
-     font-family: Typeka; 
-    
-    }
-    
-    header
-    {   width: 1890px;
-        height: 100px;
-        background-repeat: no-repeat;
-        background-color: #2e313a9b;
-        background-position: center; 
-        position: top;
-      
-       
-        
-    
-    }
-    
-    main
-    {
-        padding-left: 2em;
-        padding-right: 2em;
-        padding-bottom: 10em;
-        display:block;
-        
-    }
-    fieldset
-    {
-        text-align: center;
-        border-radius: 30px;
-        ;
-    }
-    .details
-    {   
-        padding-left:10%;
-        padding-right:20%;
-        font-weight: lighter;
-        line-height: 130%;
-        font-size: 0.5cm;
-        letter-spacing: 0.1em;
-    }
-    
-    
-    wrapper
-    {
-       
-    }
-    
-    p
-    {
-        text-align: center;
-    }
-    
-    h1
-    {
-        text-align: center;
-        padding-top: 1px;
-        padding-left: 20px;
-        font-size: 5em;
-        text-shadow: 0.1em 0.1em 0.2em rgb(175, 175, 175);
-    }
-    
-    h2
-    {
-        font-weight: lighter;
-        line-height: 150%;
-        text-align: center;
-    }
-    h3
-    {
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-     .host
-     {
-         font-size: 3em;
-         
-     }
-    nav
-    {
-        font-size: 1.5em;
-        text-align: center;
-        font-weight: bold;
-        padding-top: 10px;
-    }
-    
-    nav a
-    {
-        text-decoration: none;
-    }
-    a:link 
-        {color: #ffffff; }
-    
-    a:visited 
-        {color:#e9e9e9; }
-    
-    a:hover 
-        {color: #c2bebe; }
-    
-    footer
-    {
-        font-size: .80em;
-        font-style: italic;
-        text-align: center;
-        padding-bottom: 10px;
-        border-top: 2px;
-        color: white;
-    }
-    
-    img
-    {
-        padding-left: 10px;
-    	padding-right: 10px;
-    }
-    
-    .floatleft 
-    {
-        float:left;
-        padding-right: 2em;
-        padding-bottom: 2em;
-    } 
-    
-    .jef
-    {
-        padding-right: 2em;
-        padding-bottom: 12em;
-    } 
-    
-    
-    header, nav, main, footer {display: block; }
-    
-    
-    #Studio
-    {
-        background-image:url("Images/Radio\ room\ 3.jpg");
-    	background-size:100% 100%;
-    	height:500px; 
-        width: 1850px;
-        opacity: 0.7;
-        filter: alpha(opacity=40);
-    
-    }
+.sprzet1
+
+{
+    font-size: 1.5em;
 }
 
-@media screen and (min-width: 1441px) and (max-width: 1920px) {
-    @font-face {
-        font-family: typeka;
-        src: url(Fonts/Typeka.otf);
-      }
-      
-    
-    * {box-sizing: border-box;}
-    
-    
-    
-    
-    body
-    {
-     background-color: black;
-     color: white;
-     font-family: Typeka; 
-    
-    }
-    
-    header
-    {   width: 1890px;
-        height: 100px;
-        background-repeat: no-repeat;
-        background-color: #2e313a9b;
-        background-position: center; 
-        position: top;
-      
-       
-        
-    
-    }
-    
-    main
-    {
-        padding-left: 2em;
-        padding-right: 2em;
-        padding-bottom: 10em;
-        display:block;
-        
-    }
-    fieldset
-    {
-        text-align: center;
-        border-radius: 30px;
-        ;
-    }
-    .details
-    {   
-        padding-left:10%;
-        padding-right:20%;
-        font-weight: lighter;
-        line-height: 130%;
-        font-size: 0.5cm;
-        letter-spacing: 0.1em;
-    }
-    
-    
-    wrapper
-    {
-       
-    }
-    
-    p
-    {
-        text-align: center;
-    }
-    
-    h1
-    {
-        text-align: center;
-        padding-top: 1px;
-        padding-left: 20px;
-        font-size: 5em;
-        text-shadow: 0.1em 0.1em 0.2em rgb(175, 175, 175);
-    }
-    
-    h2
-    {
-        font-weight: lighter;
-        line-height: 150%;
-        text-align: center;
-    }
-    h3
-    {
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-     .host
-     {
-         font-size: 3em;
-         
-     }
-    nav
-    {
-        font-size: 1.5em;
-        text-align: center;
-        font-weight: bold;
-        padding-top: 10px;
-    }
-    
-    nav a
-    {
-        text-decoration: none;
-    }
-    a:link 
-        {color: #ffffff; }
-    
-    a:visited 
-        {color:#e9e9e9; }
-    
-    a:hover 
-        {color: #c2bebe; }
-    
-    footer
-    {
-        font-size: .80em;
-        font-style: italic;
-        text-align: center;
-        padding-bottom: 10px;
-        border-top: 2px;
-        color: white;
-    }
-    
-    img
-    {
-        padding-left: 10px;
-    	padding-right: 10px;
-    }
-    
-    .floatleft 
-    {
-        float:left;
-        padding-right: 2em;
-        padding-bottom: 2em;
-    } 
-    
-    .jef
-    {
-        padding-right: 2em;
-        padding-bottom: 12em;
-    } 
-    
-    
-    header, nav, main, footer {display: block; }
-    
-    
-    #Studio
-    {
-        background-image:url("Images/Radio\ room\ 3.jpg");
-    	background-size:100% 100%;
-    	height:500px; 
-        width: 1850px;
-        opacity: 0.7;
-        filter: alpha(opacity=40);
-    
-    }
-}
-
-@media screen and (min-width: 1921px) {
-    
-    
-    
-    
-    body
-    {
-     background-color: black;
-     color: white;
-     font-family: Typeka; 
-    
-    }
-    
-    header
-    {   width: 1890px;
-        height: 100px;
-        background-repeat: no-repeat;
-        background-color: #2e313a9b;
-        background-position: center; 
-        position: top;
-      
-       
-        
-    
-    }
-    
-    main
-    {
-        padding-left: 2em;
-        padding-right: 2em;
-        padding-bottom: 10em;
-        display:block;
-        
-    }
-    fieldset
-    {
-        text-align: center;
-        border-radius: 30px;
-        ;
-    }
-    .details
-    {   
-        padding-left:10%;
-        padding-right:20%;
-        font-weight: lighter;
-        line-height: 130%;
-        font-size: 0.5cm;
-        letter-spacing: 0.1em;
-    }
-    
-    
-    
-    p
-    {
-        text-align: center;
-    }
-    
-    h1
-    {
-        text-align: center;
-        padding-top: 1px;
-        padding-left: 20px;
-        font-size: 5em;
-        text-shadow: 0.1em 0.1em 0.2em rgb(175, 175, 175);
-    }
-    
-    h2
-    {
-        font-weight: lighter;
-        line-height: 150%;
-        text-align: center;
-    }
-    h3
-    {
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-     .host
-     {
-         font-size: 3em;
-         
-     }
-    nav
-    {
-        font-size: 1.5em;
-        text-align: center;
-        font-weight: bold;
-        padding-top: 10px;
-    }
-    
-    nav a
-    {
-        text-decoration: none;
-    }
-    a:link 
-        {color: #ffffff; }
-    
-    a:visited 
-        {color:#e9e9e9; }
-    
-    a:hover 
-        {color: #c2bebe; }
-    
-    footer
-    {
-        font-size: .80em;
-        font-style: italic;
-        text-align: center;
-        padding-bottom: 10px;
-        border-top: 2px;
-        color: white;
-    }
-    
-    img
-    {
-        padding-left: 10px;
-    	padding-right: 10px;
-    }
-    
-    .floatleft 
-    {
-        float:left;
-        padding-right: 2em;
-        padding-bottom: 2em;
-    } 
-    
-    .jef
-    {
-        padding-right: 2em;
-        padding-bottom: 12em;
-    } 
-    
-    
-    header, nav, main, footer {display: block; }
-    
-    
-    #Studio
-    {
-        background-image:url("Images/Radio\ room\ 3.jpg");
-    	background-size:100% 100%;
-    	height:500px; 
-        width: 1850px;
-        opacity: 0.7;
-        filter: alpha(opacity=40);
-    
-    }
-}
+	
+	
+	
+	
