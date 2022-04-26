@@ -207,6 +207,12 @@ img
     vertical-align: middle;
   }
 
+  .wywiad1, .wywiad2, .wywiad3
+
+  {   width: 30%;
+      display: block;
+      margin:0 auto;
+  }
 
 @media only screen and (max-width: 1024px) {
     body { margin: 0;
@@ -333,7 +339,9 @@ img
     font-size: 1.5em;
 }
 
-	
-	
-	
-	
+.wywiad1, .wywiad2, .wywiad3
+
+{ 
+    width: 100%;
+    height: auto;
+}
