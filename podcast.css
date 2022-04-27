@@ -212,6 +212,12 @@ img
   {   width: 30%;
       display: block;
       margin:0 auto;
+     
+  }
+
+  iframe
+  {
+      padding-bottom: 5em;
   }
 
 @media only screen and (max-width: 1024px) {
